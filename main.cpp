@@ -6,6 +6,6 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	SpaceTime space;
-	space.Force();
+	space.play();
 	return 0;
 }

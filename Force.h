@@ -7,7 +7,10 @@ class Force
 		friend class Planet;
 		Force();
 		~Force();
-		Force operator+(Force const &);
+		void getforce();
+		Force operator+(Force const );
+//		void operator=(Force const );
+		void clean();
 	protected:
 		double fx;
 		double fy;
